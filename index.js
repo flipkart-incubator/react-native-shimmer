@@ -31,6 +31,7 @@ export default class Shimmer extends Component {
     highlightLength: PropTypes.number,
     beginFadeDuration: PropTypes.number,
     endFadeDuration: PropTypes.number,
+    highlightAlpha: PropTypes.number,
   };
 
   static defaultProps = {
@@ -42,6 +43,7 @@ export default class Shimmer extends Component {
     pauseDuration: 400,
     beginFadeDuration: 0,
     endFadeDuration: 0,
+    highlightAlpha: 0.5,
   };
 
   render() {
