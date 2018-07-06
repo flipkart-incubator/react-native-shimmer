@@ -36,6 +36,18 @@ public class RNShimmerManager extends ViewGroupManager<RNShimmeringView> {
         view.setShimmer(view.getBuilder().setBaseAlpha(value).build());
     }
 
+    @ReactProp(name = "highlightAlpha", defaultFloat = 0.5F)
+    public void setHighlightAlpha(RNShimmeringView view, float value) {
+        if (value > 1.0F) {
+          value = 1.0F;
+        }
+
+        if (value < 0.0F) {
+          value = 0.0F;
+        }
+        view.setShimmer(view.getBuilder().setHighlightAlpha(value).build());
+    }
+
     @ReactProp(name = "intensity", defaultFloat = 0.0f)
     public void setAnimationOpacity(RNShimmeringView view, float value) {
         if (value > 1.0f) {
