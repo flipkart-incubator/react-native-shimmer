@@ -1,6 +1,6 @@
 {
-  "name": "react-native-shimmer",
-  "version": "0.3.2",
+  "name": "fk-reactnative-shimmer",
+  "version": "0.1.1",
   "description": "Simple shimmering effect in React Native",
   "main": "index.js",
   "scripts": {
@@ -21,16 +21,16 @@
     "animation"
   ],
   "author": {
-    "name": "Joel Arvidsson",
-    "email": "joel@oblador.se"
+    "name": "Raikva Gandhi",
+    "email": "raikva.gandhi@flipkart.com"
   },
-  "homepage": "https://github.com/oblador/react-native-shimmer",
+  "homepage": "https://github.com/flipkart-incubator/react-native-shimmer/",
   "bugs": {
-    "url": "https://github.com/oblador/react-native-shimmer/issues"
+    "url": "https://github.com/flipkart-incubator/react-native-shimmer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/oblador/react-native-shimmer.git"
+    "url": "git://github.com/flipkart-incubator/react-native-shimmer.git"
   },
   "license": "MIT",
   "devDependencies": {
