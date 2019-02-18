@@ -34,6 +34,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    compile 'com.facebook.react:react-native:0.47.1'
     compile 'com.facebook.shimmer:shimmer:0.2.0@aar'
 }
